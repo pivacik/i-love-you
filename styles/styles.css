@@ -32,7 +32,7 @@ body {
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .container p span.typed-text {
@@ -139,7 +139,7 @@ body {
   display: inline-block;
   font-size: 1.5rem;
   padding: 0.7rem 3.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 40px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -270,28 +270,11 @@ body {
   margin-left: 0%;
   position: fixed;
   opacity: 0;
-  font-size: 2.1em;
-  -webkit-animation-name: animateBubble7, sideWays4;
-          animation-name: animateBubble7, sideWays4;
-  -webkit-animation-duration: 3.3s, 1.9s;
-          animation-duration: 3.3s, 1.9s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.6s, 0s;
-          animation-delay: 2.6s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble1 {
-  margin-left: 2.5%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2.1em;
-  -webkit-animation-name: animateBubble10, sideWays2;
-          animation-name: animateBubble10, sideWays2;
-  -webkit-animation-duration: 3.7s, 1.2s;
-          animation-duration: 3.7s, 1.2s;
+  font-size: 1.4em;
+  -webkit-animation-name: animateBubble7, sideWays2;
+          animation-name: animateBubble7, sideWays2;
+  -webkit-animation-duration: 3.4s, 1.6s;
+          animation-duration: 3.4s, 1.6s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 2.8s, 0s;
@@ -300,15 +283,32 @@ body {
           animation-direction: normal, alternate;
 }
 
+.floating .bubble1 {
+  margin-left: 2.5%;
+  position: fixed;
+  opacity: 0;
+  font-size: 1.8em;
+  -webkit-animation-name: animateBubble2, sideWays8;
+          animation-name: animateBubble2, sideWays8;
+  -webkit-animation-duration: 3.2s, 1.6s;
+          animation-duration: 3.2s, 1.6s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 0.9s, 0s;
+          animation-delay: 0.9s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
 .floating .bubble2 {
   margin-left: 5%;
   position: fixed;
   opacity: 0;
-  font-size: 2em;
-  -webkit-animation-name: animateBubble9, sideWays5;
-          animation-name: animateBubble9, sideWays5;
-  -webkit-animation-duration: 3.6s, 1.2s;
-          animation-duration: 3.6s, 1.2s;
+  font-size: 2.2em;
+  -webkit-animation-name: animateBubble3, sideWays6;
+          animation-name: animateBubble3, sideWays6;
+  -webkit-animation-duration: 3.7s, 1.2s;
+          animation-duration: 3.7s, 1.2s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 2.8s, 0s;
@@ -321,28 +321,11 @@ body {
   margin-left: 7.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.4em;
-  -webkit-animation-name: animateBubble1, sideWays3;
-          animation-name: animateBubble1, sideWays3;
-  -webkit-animation-duration: 3.8s, 1.8s;
-          animation-duration: 3.8s, 1.8s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1.5s, 0s;
-          animation-delay: 1.5s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble4 {
-  margin-left: 10%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2.4em;
-  -webkit-animation-name: animateBubble2, sideWays10;
-          animation-name: animateBubble2, sideWays10;
-  -webkit-animation-duration: 3.5s, 1.4s;
-          animation-duration: 3.5s, 1.4s;
+  font-size: 1.1em;
+  -webkit-animation-name: animateBubble10, sideWays2;
+          animation-name: animateBubble10, sideWays2;
+  -webkit-animation-duration: 3.1s, 1.4s;
+          animation-duration: 3.1s, 1.4s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 2.7s, 0s;
@@ -351,19 +334,36 @@ body {
           animation-direction: normal, alternate;
 }
 
+.floating .bubble4 {
+  margin-left: 10%;
+  position: fixed;
+  opacity: 0;
+  font-size: 1.6em;
+  -webkit-animation-name: animateBubble4, sideWays6;
+          animation-name: animateBubble4, sideWays6;
+  -webkit-animation-duration: 3.7s, 1.5s;
+          animation-duration: 3.7s, 1.5s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 2.9s, 0s;
+          animation-delay: 2.9s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
 .floating .bubble5 {
   margin-left: 12.5%;
   position: fixed;
   opacity: 0;
-  font-size: 3em;
-  -webkit-animation-name: animateBubble2, sideWays6;
-          animation-name: animateBubble2, sideWays6;
-  -webkit-animation-duration: 3.1s, 1.4s;
-          animation-duration: 3.1s, 1.4s;
+  font-size: 1.3em;
+  -webkit-animation-name: animateBubble2, sideWays3;
+          animation-name: animateBubble2, sideWays3;
+  -webkit-animation-duration: 3.9s, 1.6s;
+          animation-duration: 3.9s, 1.6s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.1s, 0s;
-          animation-delay: 2.1s, 0s;
+  -webkit-animation-delay: 1.1s, 0s;
+          animation-delay: 1.1s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -372,15 +372,15 @@ body {
   margin-left: 15%;
   position: fixed;
   opacity: 0;
-  font-size: 2.1em;
-  -webkit-animation-name: animateBubble10, sideWays2;
-          animation-name: animateBubble10, sideWays2;
-  -webkit-animation-duration: 3.8s, 1.2s;
-          animation-duration: 3.8s, 1.2s;
+  font-size: 1.1em;
+  -webkit-animation-name: animateBubble6, sideWays9;
+          animation-name: animateBubble6, sideWays9;
+  -webkit-animation-duration: 3.2s, 1.5s;
+          animation-duration: 3.2s, 1.5s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.7s, 0s;
-          animation-delay: 0.7s, 0s;
+  -webkit-animation-delay: 2.1s, 0s;
+          animation-delay: 2.1s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -389,113 +389,11 @@ body {
   margin-left: 17.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.3em;
-  -webkit-animation-name: animateBubble2, sideWays1;
-          animation-name: animateBubble2, sideWays1;
-  -webkit-animation-duration: 3.6s, 1.3s;
-          animation-duration: 3.6s, 1.3s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.6s, 0s;
-          animation-delay: 0.6s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble8 {
-  margin-left: 20%;
-  position: fixed;
-  opacity: 0;
   font-size: 1.1em;
-  -webkit-animation-name: animateBubble1, sideWays2;
-          animation-name: animateBubble1, sideWays2;
-  -webkit-animation-duration: 4s, 1.3s;
-          animation-duration: 4s, 1.3s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1.8s, 0s;
-          animation-delay: 1.8s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble9 {
-  margin-left: 22.5%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2.4em;
-  -webkit-animation-name: animateBubble7, sideWays8;
-          animation-name: animateBubble7, sideWays8;
-  -webkit-animation-duration: 3.7s, 1.3s;
-          animation-duration: 3.7s, 1.3s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.1s, 0s;
-          animation-delay: 0.1s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble10 {
-  margin-left: 25%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2.3em;
-  -webkit-animation-name: animateBubble2, sideWays1;
-          animation-name: animateBubble2, sideWays1;
-  -webkit-animation-duration: 3.5s, 1.8s;
-          animation-duration: 3.5s, 1.8s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1s, 0s;
-          animation-delay: 1s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble11 {
-  margin-left: 27.5%;
-  position: fixed;
-  opacity: 0;
-  font-size: 1.2em;
-  -webkit-animation-name: animateBubble8, sideWays6;
-          animation-name: animateBubble8, sideWays6;
-  -webkit-animation-duration: 3.9s, 1.6s;
-          animation-duration: 3.9s, 1.6s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.8s, 0s;
-          animation-delay: 2.8s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble12 {
-  margin-left: 30%;
-  position: fixed;
-  opacity: 0;
-  font-size: 1.8em;
-  -webkit-animation-name: animateBubble7, sideWays8;
-          animation-name: animateBubble7, sideWays8;
-  -webkit-animation-duration: 3.3s, 1.1s;
-          animation-duration: 3.3s, 1.1s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1.5s, 0s;
-          animation-delay: 1.5s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble13 {
-  margin-left: 32.5%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2.5em;
-  -webkit-animation-name: animateBubble8, sideWays10;
-          animation-name: animateBubble8, sideWays10;
-  -webkit-animation-duration: 3.5s, 1.5s;
-          animation-duration: 3.5s, 1.5s;
+  -webkit-animation-name: animateBubble4, sideWays7;
+          animation-name: animateBubble4, sideWays7;
+  -webkit-animation-duration: 4s, 1.8s;
+          animation-duration: 4s, 1.8s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 1.4s, 0s;
@@ -504,19 +402,121 @@ body {
           animation-direction: normal, alternate;
 }
 
+.floating .bubble8 {
+  margin-left: 20%;
+  position: fixed;
+  opacity: 0;
+  font-size: 2.3em;
+  -webkit-animation-name: animateBubble7, sideWays4;
+          animation-name: animateBubble7, sideWays4;
+  -webkit-animation-duration: 3.5s, 1.6s;
+          animation-duration: 3.5s, 1.6s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 0.2s, 0s;
+          animation-delay: 0.2s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble9 {
+  margin-left: 22.5%;
+  position: fixed;
+  opacity: 0;
+  font-size: 1.2em;
+  -webkit-animation-name: animateBubble4, sideWays2;
+          animation-name: animateBubble4, sideWays2;
+  -webkit-animation-duration: 3.9s, 1.5s;
+          animation-duration: 3.9s, 1.5s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 0.8s, 0s;
+          animation-delay: 0.8s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble10 {
+  margin-left: 25%;
+  position: fixed;
+  opacity: 0;
+  font-size: 3em;
+  -webkit-animation-name: animateBubble1, sideWays8;
+          animation-name: animateBubble1, sideWays8;
+  -webkit-animation-duration: 3.1s, 1.5s;
+          animation-duration: 3.1s, 1.5s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 1.5s, 0s;
+          animation-delay: 1.5s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble11 {
+  margin-left: 27.5%;
+  position: fixed;
+  opacity: 0;
+  font-size: 1.9em;
+  -webkit-animation-name: animateBubble5, sideWays6;
+          animation-name: animateBubble5, sideWays6;
+  -webkit-animation-duration: 3.8s, 1.3s;
+          animation-duration: 3.8s, 1.3s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 2.4s, 0s;
+          animation-delay: 2.4s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble12 {
+  margin-left: 30%;
+  position: fixed;
+  opacity: 0;
+  font-size: 3em;
+  -webkit-animation-name: animateBubble4, sideWays7;
+          animation-name: animateBubble4, sideWays7;
+  -webkit-animation-duration: 3.6s, 1.2s;
+          animation-duration: 3.6s, 1.2s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 0.1s, 0s;
+          animation-delay: 0.1s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble13 {
+  margin-left: 32.5%;
+  position: fixed;
+  opacity: 0;
+  font-size: 2.2em;
+  -webkit-animation-name: animateBubble7, sideWays3;
+          animation-name: animateBubble7, sideWays3;
+  -webkit-animation-duration: 3.5s, 1.9s;
+          animation-duration: 3.5s, 1.9s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 2.6s, 0s;
+          animation-delay: 2.6s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
 .floating .bubble14 {
   margin-left: 35%;
   position: fixed;
   opacity: 0;
-  font-size: 1.9em;
-  -webkit-animation-name: animateBubble7, sideWays6;
-          animation-name: animateBubble7, sideWays6;
-  -webkit-animation-duration: 3.1s, 1.9s;
-          animation-duration: 3.1s, 1.9s;
+  font-size: 3em;
+  -webkit-animation-name: animateBubble5, sideWays7;
+          animation-name: animateBubble5, sideWays7;
+  -webkit-animation-duration: 3.3s, 2s;
+          animation-duration: 3.3s, 2s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.4s, 0s;
-          animation-delay: 0.4s, 0s;
+  -webkit-animation-delay: 2.7s, 0s;
+          animation-delay: 2.7s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -525,15 +525,15 @@ body {
   margin-left: 37.5%;
   position: fixed;
   opacity: 0;
-  font-size: 2.6em;
-  -webkit-animation-name: animateBubble2, sideWays7;
-          animation-name: animateBubble2, sideWays7;
-  -webkit-animation-duration: 3.7s, 1.5s;
-          animation-duration: 3.7s, 1.5s;
+  font-size: 2.3em;
+  -webkit-animation-name: animateBubble10, sideWays8;
+          animation-name: animateBubble10, sideWays8;
+  -webkit-animation-duration: 3.2s, 1.4s;
+          animation-duration: 3.2s, 1.4s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.2s, 0s;
-          animation-delay: 2.2s, 0s;
+  -webkit-animation-delay: 0.8s, 0s;
+          animation-delay: 0.8s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -542,15 +542,15 @@ body {
   margin-left: 40%;
   position: fixed;
   opacity: 0;
-  font-size: 1.4em;
-  -webkit-animation-name: animateBubble6, sideWays8;
-          animation-name: animateBubble6, sideWays8;
-  -webkit-animation-duration: 3.9s, 1.8s;
-          animation-duration: 3.9s, 1.8s;
+  font-size: 1.6em;
+  -webkit-animation-name: animateBubble8, sideWays9;
+          animation-name: animateBubble8, sideWays9;
+  -webkit-animation-duration: 3.5s, 1.4s;
+          animation-duration: 3.5s, 1.4s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.5s, 0s;
-          animation-delay: 2.5s, 0s;
+  -webkit-animation-delay: 0.2s, 0s;
+          animation-delay: 0.2s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -559,15 +559,15 @@ body {
   margin-left: 42.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.8em;
-  -webkit-animation-name: animateBubble7, sideWays5;
-          animation-name: animateBubble7, sideWays5;
-  -webkit-animation-duration: 3.1s, 1.9s;
-          animation-duration: 3.1s, 1.9s;
+  font-size: 1.5em;
+  -webkit-animation-name: animateBubble5, sideWays6;
+          animation-name: animateBubble5, sideWays6;
+  -webkit-animation-duration: 3.8s, 1.2s;
+          animation-duration: 3.8s, 1.2s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.6s, 0s;
-          animation-delay: 2.6s, 0s;
+  -webkit-animation-delay: 2.2s, 0s;
+          animation-delay: 2.2s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -576,15 +576,15 @@ body {
   margin-left: 45%;
   position: fixed;
   opacity: 0;
-  font-size: 2.2em;
-  -webkit-animation-name: animateBubble2, sideWays4;
-          animation-name: animateBubble2, sideWays4;
-  -webkit-animation-duration: 3.5s, 2s;
-          animation-duration: 3.5s, 2s;
+  font-size: 2.7em;
+  -webkit-animation-name: animateBubble6, sideWays5;
+          animation-name: animateBubble6, sideWays5;
+  -webkit-animation-duration: 3.8s, 1.3s;
+          animation-duration: 3.8s, 1.3s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.9s, 0s;
-          animation-delay: 0.9s, 0s;
+  -webkit-animation-delay: 0.3s, 0s;
+          animation-delay: 0.3s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -593,15 +593,15 @@ body {
   margin-left: 47.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.9em;
-  -webkit-animation-name: animateBubble6, sideWays10;
-          animation-name: animateBubble6, sideWays10;
-  -webkit-animation-duration: 3.5s, 2s;
-          animation-duration: 3.5s, 2s;
+  font-size: 1.4em;
+  -webkit-animation-name: animateBubble2, sideWays5;
+          animation-name: animateBubble2, sideWays5;
+  -webkit-animation-duration: 3.2s, 1.6s;
+          animation-duration: 3.2s, 1.6s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.4s, 0s;
-          animation-delay: 0.4s, 0s;
+  -webkit-animation-delay: 0s, 0s;
+          animation-delay: 0s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -610,15 +610,15 @@ body {
   margin-left: 50%;
   position: fixed;
   opacity: 0;
-  font-size: 1.6em;
-  -webkit-animation-name: animateBubble8, sideWays5;
-          animation-name: animateBubble8, sideWays5;
-  -webkit-animation-duration: 3.6s, 1.5s;
-          animation-duration: 3.6s, 1.5s;
+  font-size: 1.7em;
+  -webkit-animation-name: animateBubble2, sideWays8;
+          animation-name: animateBubble2, sideWays8;
+  -webkit-animation-duration: 3.4s, 1.9s;
+          animation-duration: 3.4s, 1.9s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.4s, 0s;
-          animation-delay: 0.4s, 0s;
+  -webkit-animation-delay: 2.8s, 0s;
+          animation-delay: 2.8s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -627,15 +627,15 @@ body {
   margin-left: 52.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.3em;
-  -webkit-animation-name: animateBubble10, sideWays3;
-          animation-name: animateBubble10, sideWays3;
-  -webkit-animation-duration: 3.3s, 2s;
-          animation-duration: 3.3s, 2s;
+  font-size: 2.9em;
+  -webkit-animation-name: animateBubble10, sideWays7;
+          animation-name: animateBubble10, sideWays7;
+  -webkit-animation-duration: 3.1s, 1.4s;
+          animation-duration: 3.1s, 1.4s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.5s, 0s;
-          animation-delay: 0.5s, 0s;
+  -webkit-animation-delay: 1.1s, 0s;
+          animation-delay: 1.1s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -644,15 +644,15 @@ body {
   margin-left: 55%;
   position: fixed;
   opacity: 0;
-  font-size: 2.9em;
-  -webkit-animation-name: animateBubble3, sideWays6;
-          animation-name: animateBubble3, sideWays6;
-  -webkit-animation-duration: 3.6s, 1.3s;
-          animation-duration: 3.6s, 1.3s;
+  font-size: 2.7em;
+  -webkit-animation-name: animateBubble9, sideWays4;
+          animation-name: animateBubble9, sideWays4;
+  -webkit-animation-duration: 3.8s, 1.8s;
+          animation-duration: 3.8s, 1.8s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.6s, 0s;
-          animation-delay: 2.6s, 0s;
+  -webkit-animation-delay: 1.3s, 0s;
+          animation-delay: 1.3s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -661,15 +661,15 @@ body {
   margin-left: 57.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.5em;
-  -webkit-animation-name: animateBubble6, sideWays7;
-          animation-name: animateBubble6, sideWays7;
-  -webkit-animation-duration: 3.7s, 1.9s;
-          animation-duration: 3.7s, 1.9s;
+  font-size: 2.6em;
+  -webkit-animation-name: animateBubble9, sideWays1;
+          animation-name: animateBubble9, sideWays1;
+  -webkit-animation-duration: 3.8s, 1.2s;
+          animation-duration: 3.8s, 1.2s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.5s, 0s;
-          animation-delay: 0.5s, 0s;
+  -webkit-animation-delay: 2.7s, 0s;
+          animation-delay: 2.7s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -678,9 +678,26 @@ body {
   margin-left: 60%;
   position: fixed;
   opacity: 0;
-  font-size: 2em;
-  -webkit-animation-name: animateBubble5, sideWays6;
-          animation-name: animateBubble5, sideWays6;
+  font-size: 1.1em;
+  -webkit-animation-name: animateBubble3, sideWays5;
+          animation-name: animateBubble3, sideWays5;
+  -webkit-animation-duration: 3.9s, 1.2s;
+          animation-duration: 3.9s, 1.2s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 0.1s, 0s;
+          animation-delay: 0.1s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble25 {
+  margin-left: 62.5%;
+  position: fixed;
+  opacity: 0;
+  font-size: 2.8em;
+  -webkit-animation-name: animateBubble10, sideWays6;
+          animation-name: animateBubble10, sideWays6;
   -webkit-animation-duration: 4s, 1.2s;
           animation-duration: 4s, 1.2s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
@@ -691,66 +708,15 @@ body {
           animation-direction: normal, alternate;
 }
 
-.floating .bubble25 {
-  margin-left: 62.5%;
-  position: fixed;
-  opacity: 0;
-  font-size: 1.8em;
-  -webkit-animation-name: animateBubble5, sideWays10;
-          animation-name: animateBubble5, sideWays10;
-  -webkit-animation-duration: 3.3s, 1.1s;
-          animation-duration: 3.3s, 1.1s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2s, 0s;
-          animation-delay: 2s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
 .floating .bubble26 {
   margin-left: 65%;
   position: fixed;
   opacity: 0;
-  font-size: 2.6em;
-  -webkit-animation-name: animateBubble7, sideWays10;
-          animation-name: animateBubble7, sideWays10;
-  -webkit-animation-duration: 4s, 1.5s;
-          animation-duration: 4s, 1.5s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.8s, 0s;
-          animation-delay: 0.8s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble27 {
-  margin-left: 67.5%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2em;
-  -webkit-animation-name: animateBubble6, sideWays4;
-          animation-name: animateBubble6, sideWays4;
-  -webkit-animation-duration: 3.5s, 2s;
-          animation-duration: 3.5s, 2s;
-  -webkit-animation-timing-function: ease-in, ease-in-out;
-          animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1.5s, 0s;
-          animation-delay: 1.5s, 0s;
-  -webkit-animation-direction: normal, alternate;
-          animation-direction: normal, alternate;
-}
-
-.floating .bubble28 {
-  margin-left: 70%;
-  position: fixed;
-  opacity: 0;
-  font-size: 2.3em;
-  -webkit-animation-name: animateBubble7, sideWays3;
-          animation-name: animateBubble7, sideWays3;
-  -webkit-animation-duration: 3.1s, 1.1s;
-          animation-duration: 3.1s, 1.1s;
+  font-size: 2.2em;
+  -webkit-animation-name: animateBubble1, sideWays1;
+          animation-name: animateBubble1, sideWays1;
+  -webkit-animation-duration: 3.8s, 1.5s;
+          animation-duration: 3.8s, 1.5s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 0.5s, 0s;
@@ -759,32 +725,49 @@ body {
           animation-direction: normal, alternate;
 }
 
-.floating .bubble29 {
-  margin-left: 72.5%;
+.floating .bubble27 {
+  margin-left: 67.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.3em;
-  -webkit-animation-name: animateBubble4, sideWays7;
-          animation-name: animateBubble4, sideWays7;
-  -webkit-animation-duration: 3.7s, 1.7s;
-          animation-duration: 3.7s, 1.7s;
+  font-size: 1.7em;
+  -webkit-animation-name: animateBubble1, sideWays10;
+          animation-name: animateBubble1, sideWays10;
+  -webkit-animation-duration: 3.5s, 1.6s;
+          animation-duration: 3.5s, 1.6s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1.8s, 0s;
-          animation-delay: 1.8s, 0s;
+  -webkit-animation-delay: 2.3s, 0s;
+          animation-delay: 2.3s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
 
-.floating .bubble30 {
-  margin-left: 75%;
+.floating .bubble28 {
+  margin-left: 70%;
   position: fixed;
   opacity: 0;
-  font-size: 1.4em;
-  -webkit-animation-name: animateBubble2, sideWays4;
-          animation-name: animateBubble2, sideWays4;
-  -webkit-animation-duration: 3.3s, 1.1s;
-          animation-duration: 3.3s, 1.1s;
+  font-size: 2.8em;
+  -webkit-animation-name: animateBubble8, sideWays4;
+          animation-name: animateBubble8, sideWays4;
+  -webkit-animation-duration: 3.9s, 1.6s;
+          animation-duration: 3.9s, 1.6s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 0.4s, 0s;
+          animation-delay: 0.4s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
+.floating .bubble29 {
+  margin-left: 72.5%;
+  position: fixed;
+  opacity: 0;
+  font-size: 2.8em;
+  -webkit-animation-name: animateBubble5, sideWays2;
+          animation-name: animateBubble5, sideWays2;
+  -webkit-animation-duration: 3.8s, 1.1s;
+          animation-duration: 3.8s, 1.1s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 2.4s, 0s;
@@ -793,19 +776,36 @@ body {
           animation-direction: normal, alternate;
 }
 
+.floating .bubble30 {
+  margin-left: 75%;
+  position: fixed;
+  opacity: 0;
+  font-size: 2.2em;
+  -webkit-animation-name: animateBubble7, sideWays7;
+          animation-name: animateBubble7, sideWays7;
+  -webkit-animation-duration: 3.8s, 1.4s;
+          animation-duration: 3.8s, 1.4s;
+  -webkit-animation-timing-function: ease-in, ease-in-out;
+          animation-timing-function: ease-in, ease-in-out;
+  -webkit-animation-delay: 2.6s, 0s;
+          animation-delay: 2.6s, 0s;
+  -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+}
+
 .floating .bubble31 {
   margin-left: 77.5%;
   position: fixed;
   opacity: 0;
-  font-size: 1.9em;
-  -webkit-animation-name: animateBubble3, sideWays2;
-          animation-name: animateBubble3, sideWays2;
-  -webkit-animation-duration: 3.4s, 1.3s;
-          animation-duration: 3.4s, 1.3s;
+  font-size: 2.2em;
+  -webkit-animation-name: animateBubble2, sideWays10;
+          animation-name: animateBubble2, sideWays10;
+  -webkit-animation-duration: 3.4s, 1.9s;
+          animation-duration: 3.4s, 1.9s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.9s, 0s;
-          animation-delay: 2.9s, 0s;
+  -webkit-animation-delay: 0.4s, 0s;
+          animation-delay: 0.4s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -814,15 +814,15 @@ body {
   margin-left: 80%;
   position: fixed;
   opacity: 0;
-  font-size: 1.3em;
-  -webkit-animation-name: animateBubble9, sideWays6;
-          animation-name: animateBubble9, sideWays6;
-  -webkit-animation-duration: 3.7s, 1.4s;
-          animation-duration: 3.7s, 1.4s;
+  font-size: 3em;
+  -webkit-animation-name: animateBubble9, sideWays8;
+          animation-name: animateBubble9, sideWays8;
+  -webkit-animation-duration: 4s, 1.3s;
+          animation-duration: 4s, 1.3s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.7s, 0s;
-          animation-delay: 2.7s, 0s;
+  -webkit-animation-delay: 2.5s, 0s;
+          animation-delay: 2.5s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -832,14 +832,14 @@ body {
   position: fixed;
   opacity: 0;
   font-size: 2.5em;
-  -webkit-animation-name: animateBubble4, sideWays8;
-          animation-name: animateBubble4, sideWays8;
-  -webkit-animation-duration: 3.8s, 1.9s;
-          animation-duration: 3.8s, 1.9s;
+  -webkit-animation-name: animateBubble6, sideWays6;
+          animation-name: animateBubble6, sideWays6;
+  -webkit-animation-duration: 3.1s, 1.2s;
+          animation-duration: 3.1s, 1.2s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.3s, 0s;
-          animation-delay: 2.3s, 0s;
+  -webkit-animation-delay: 1.2s, 0s;
+          animation-delay: 1.2s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -848,15 +848,15 @@ body {
   margin-left: 85%;
   position: fixed;
   opacity: 0;
-  font-size: 1.5em;
-  -webkit-animation-name: animateBubble6, sideWays4;
-          animation-name: animateBubble6, sideWays4;
-  -webkit-animation-duration: 3.3s, 1.5s;
-          animation-duration: 3.3s, 1.5s;
+  font-size: 2.4em;
+  -webkit-animation-name: animateBubble7, sideWays5;
+          animation-name: animateBubble7, sideWays5;
+  -webkit-animation-duration: 3.4s, 1.7s;
+          animation-duration: 3.4s, 1.7s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.3s, 0s;
-          animation-delay: 2.3s, 0s;
+  -webkit-animation-delay: 1.8s, 0s;
+          animation-delay: 1.8s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -866,14 +866,14 @@ body {
   position: fixed;
   opacity: 0;
   font-size: 2em;
-  -webkit-animation-name: animateBubble6, sideWays1;
-          animation-name: animateBubble6, sideWays1;
-  -webkit-animation-duration: 3.4s, 1.3s;
-          animation-duration: 3.4s, 1.3s;
+  -webkit-animation-name: animateBubble7, sideWays7;
+          animation-name: animateBubble7, sideWays7;
+  -webkit-animation-duration: 3.3s, 1.9s;
+          animation-duration: 3.3s, 1.9s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1s, 0s;
-          animation-delay: 1s, 0s;
+  -webkit-animation-delay: 2.4s, 0s;
+          animation-delay: 2.4s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -882,15 +882,15 @@ body {
   margin-left: 90%;
   position: fixed;
   opacity: 0;
-  font-size: 1.4em;
-  -webkit-animation-name: animateBubble7, sideWays10;
-          animation-name: animateBubble7, sideWays10;
-  -webkit-animation-duration: 3.5s, 1.3s;
-          animation-duration: 3.5s, 1.3s;
+  font-size: 2em;
+  -webkit-animation-name: animateBubble5, sideWays10;
+          animation-name: animateBubble5, sideWays10;
+  -webkit-animation-duration: 3.8s, 1.8s;
+          animation-duration: 3.8s, 1.8s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.1s, 0s;
-          animation-delay: 2.1s, 0s;
+  -webkit-animation-delay: 2.4s, 0s;
+          animation-delay: 2.4s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -899,15 +899,15 @@ body {
   margin-left: 92.5%;
   position: fixed;
   opacity: 0;
-  font-size: 3em;
-  -webkit-animation-name: animateBubble3, sideWays5;
-          animation-name: animateBubble3, sideWays5;
-  -webkit-animation-duration: 3.2s, 1.4s;
-          animation-duration: 3.2s, 1.4s;
+  font-size: 1.8em;
+  -webkit-animation-name: animateBubble2, sideWays1;
+          animation-name: animateBubble2, sideWays1;
+  -webkit-animation-duration: 3.1s, 1.8s;
+          animation-duration: 3.1s, 1.8s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 2.6s, 0s;
-          animation-delay: 2.6s, 0s;
+  -webkit-animation-delay: 1.6s, 0s;
+          animation-delay: 1.6s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -916,15 +916,15 @@ body {
   margin-left: 95%;
   position: fixed;
   opacity: 0;
-  font-size: 2.2em;
-  -webkit-animation-name: animateBubble3, sideWays8;
-          animation-name: animateBubble3, sideWays8;
-  -webkit-animation-duration: 3.9s, 1.3s;
-          animation-duration: 3.9s, 1.3s;
+  font-size: 1.6em;
+  -webkit-animation-name: animateBubble3, sideWays7;
+          animation-name: animateBubble3, sideWays7;
+  -webkit-animation-duration: 3.7s, 1.1s;
+          animation-duration: 3.7s, 1.1s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 1.3s, 0s;
-          animation-delay: 1.3s, 0s;
+  -webkit-animation-delay: 1.8s, 0s;
+          animation-delay: 1.8s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -933,15 +933,15 @@ body {
   margin-left: 97.5%;
   position: fixed;
   opacity: 0;
-  font-size: 2.2em;
-  -webkit-animation-name: animateBubble7, sideWays1;
-          animation-name: animateBubble7, sideWays1;
-  -webkit-animation-duration: 3.8s, 1.4s;
-          animation-duration: 3.8s, 1.4s;
+  font-size: 1.3em;
+  -webkit-animation-name: animateBubble8, sideWays5;
+          animation-name: animateBubble8, sideWays5;
+  -webkit-animation-duration: 3.8s, 1.6s;
+          animation-duration: 3.8s, 1.6s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
-  -webkit-animation-delay: 0.8s, 0s;
-          animation-delay: 0.8s, 0s;
+  -webkit-animation-delay: 2.7s, 0s;
+          animation-delay: 2.7s, 0s;
   -webkit-animation-direction: normal, alternate;
           animation-direction: normal, alternate;
 }
@@ -950,11 +950,11 @@ body {
   margin-left: 100%;
   position: fixed;
   opacity: 0;
-  font-size: 1.7em;
-  -webkit-animation-name: animateBubble7, sideWays1;
-          animation-name: animateBubble7, sideWays1;
-  -webkit-animation-duration: 3.7s, 1.3s;
-          animation-duration: 3.7s, 1.3s;
+  font-size: 1.8em;
+  -webkit-animation-name: animateBubble5, sideWays4;
+          animation-name: animateBubble5, sideWays4;
+  -webkit-animation-duration: 3.7s, 1.4s;
+          animation-duration: 3.7s, 1.4s;
   -webkit-animation-timing-function: ease-in, ease-in-out;
           animation-timing-function: ease-in, ease-in-out;
   -webkit-animation-delay: 1.8s, 0s;
