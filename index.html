@@ -20,10 +20,14 @@
     </header>
     <section class="main-section">
       <div class="img-container">
-        <img
-          src="./img/strawberry-frog.webp"
-          alt="sweet frog with a strawberry hat"
-        />
+        <picture>
+          <source srcset="./img/strawberry-frog.webp" type="image/webp" />
+          <source srcset="./img/strawberry-frog.png" type="image/png" />
+          <img
+            src="./img/strawberry-frog.png"
+            alt="sweet frog with a strawberry hat"
+          />
+        </picture>
       </div>
       <button class="bubbly-button hearts">Да!</button>
     </section>
